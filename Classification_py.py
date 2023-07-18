@@ -297,7 +297,7 @@ print(y_train.shape)
 
 
 #Classification using the MLPClassifier from the sklearn package
-clf = MLPClassifier(hidden_layer_sizes=(250, 100, 50), random_state=random_state)
+clf = MLPClassifier(hidden_layer_sizes=(784, 196, 7), random_state=random_state)
 clf.fit(X_train, y_train)
 
 y_pred = clf.predict(X_test)
