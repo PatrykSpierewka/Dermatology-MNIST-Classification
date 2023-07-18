@@ -6,3 +6,5 @@ The data are skin images with dimensions of 28x28 pixels and RGB color scale. A 
 <p align="center">
   <img src="https://github.com/PatrykSpierewka/Dermatology-MNIST-Classification/assets/101202344/8850706e-5773-49cc-b167-3db63d52237b" alt="dermo" style="width: 75%; height: auto;">
 </p>
+
+### Data preprocessing
