@@ -14,3 +14,4 @@ The data are skin images with dimensions of 28x28 pixels and RGB color scale. A 
 - augmentation: generating additional, similar images for each of the minority classes using tensorflow keras (only train set).
 
 ### MLP classification
+Classification was done using MLP with 784 neural input, 196 neural hidden layer and 7 neural output.
