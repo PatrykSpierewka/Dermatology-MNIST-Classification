@@ -7,4 +7,8 @@ The data are skin images with dimensions of 28x28 pixels and RGB color scale. A 
   <img src="https://github.com/PatrykSpierewka/Dermatology-MNIST-Classification/assets/101202344/8850706e-5773-49cc-b167-3db63d52237b" alt="dermo" style="width: 75%; height: auto;">
 </p>
 
-### Data preprocessing
+###Data preprocessing:
+- greyscale: image dim from 28x28x3 to 28x28x1 (train set, test set)
+- flattening: image dim from 28x28x1 to 784x1 (train set, test set)
+- normalization: pixels values from 0-255 to 0.0-1.0 (train set, test set)
+- augmentation: generating additional, similar images for each of the minority classes using tensorflow keras (only train set)
