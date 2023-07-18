@@ -15,3 +15,11 @@ The data are skin images with dimensions of 28x28 pixels and RGB color scale. A 
 
 ### MLP classification
 Classification was done using MLP with 784 neural input, 196 neural hidden layer and 7 neural output.
+
+<div align="center">
+
+| **Classiffier** | **Accuracy** | **Precision** | **Recall** | **F1** |
+|:---------------:|:------------:|:-------------:|:----------:|:------:|
+|       MLP       |     0.68     |      0.62     |    0.69    |  0.64  |
+
+</div>
