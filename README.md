@@ -8,7 +8,9 @@ The data are skin images with dimensions of 28x28 pixels and RGB color scale. A 
 </p>
 
 ### Data preprocessing:
-- greyscale: image dim from 28x28x3 to 28x28x1 (train set, test set)
-- flattening: image dim from 28x28x1 to 784x1 (train set, test set)
-- normalization: pixels values from 0-255 to 0.0-1.0 (train set, test set)
-- augmentation: generating additional, similar images for each of the minority classes using tensorflow keras (only train set)
+- greyscale: image dim from 28x28x3 to 28x28x1 (train set, test set),
+- flattening: image dim from 28x28x1 to 784x1 (train set, test set),
+- normalization: pixels values from 0-255 to 0.0-1.0 (train set, test set),
+- augmentation: generating additional, similar images for each of the minority classes using tensorflow keras (only train set).
+
+### MLP classification
