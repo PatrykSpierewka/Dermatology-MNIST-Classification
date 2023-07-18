@@ -23,3 +23,8 @@ Classification was done using MLP with 784 neural input, 196 neural hidden layer
 |       MLP       |     0.68     |      0.62     |    0.69    |  0.64  |
 
 </div>
+<div align="center">
+
+![dermo_plot](https://github.com/PatrykSpierewka/Dermatology-MNIST-Classification/assets/101202344/401c443e-3091-4986-b79f-5e4a202ed9dc)
+
+</div>
