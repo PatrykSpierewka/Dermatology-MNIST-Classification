@@ -12,8 +12,8 @@ The data are skin images with dimensions of 28x28 pixels and RGB color scale. A 
 - flattening: image dim from 28x28x1 to 784x1 (train set, test set),
 - normalization: pixels values from 0-255 to 0.0-1.0 (train set, test set),
 
-### MLP classification
-Classification was done using MLP with 784 neural input, 196 neural hidden layer and 7 neural output.
+### CNN classification
+Classification was done using CNN1
 
 <div align="center">
 
