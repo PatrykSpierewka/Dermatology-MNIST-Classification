@@ -11,7 +11,6 @@ The data are skin images with dimensions of 28x28 pixels and RGB color scale. A 
 - greyscale: image dim from 28x28x3 to 28x28x1 (train set, test set),
 - flattening: image dim from 28x28x1 to 784x1 (train set, test set),
 - normalization: pixels values from 0-255 to 0.0-1.0 (train set, test set),
-- augmentation: generating additional, similar images for each of the minority classes using tensorflow keras (only train set).
 
 ### MLP classification
 Classification was done using MLP with 784 neural input, 196 neural hidden layer and 7 neural output.
@@ -20,7 +19,7 @@ Classification was done using MLP with 784 neural input, 196 neural hidden layer
 
 | **Classiffier** | **Accuracy** | **Precision** | **Recall** | **F1** |
 |:---------------:|:------------:|:-------------:|:----------:|:------:|
-|       MLP       |     0.68     |      0.62     |    0.69    |  0.64  |
+|       CNN1D     |     0.72     |      0.67     |    0.71    |  0.68  |
 
 </div>
 <div align="center">
