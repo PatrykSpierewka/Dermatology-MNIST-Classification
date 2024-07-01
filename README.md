@@ -24,6 +24,6 @@ Classification was done using CNN1
 </div>
 <div align="center">
 
-![dermo_plot](https://github.com/PatrykSpierewka/Dermatology-MNIST-Classification/assets/101202344/401c443e-3091-4986-b79f-5e4a202ed9dc)
+![image](https://github.com/PatrykSpierewka/Dermatology-MNIST-Classification/assets/101202344/e6f646b6-98c8-4b28-a321-79c98393ecc5)
 
 </div>
